@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a book</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Add a book</h1>
+            <nav>
+                <a href="/index.html" class="a">home</a>
+                <!-- <a href="../edit/index.html"></a> -->
+            </nav>
+            <div id="error">error-message</div>
+        </header>
+        <main>
+            <form id="add-new-book-form">
+                <label>title<input type="text" id="title"></label>
+                <label>subtitle<input type="text" id="subtitle"></label>
+                <label>isbn<input type="text" id="isbn"></label>
+                <label>abstract<input type="text" id="abstract"></label>
+                <label>numPages<input type="text" id="numPages"></label>
+                <label>author<input type="text" id="author"></label>
+                <label>publisher<input type="text" id="publisher"></label>
+                <label>price<input type="text" id="price"></label>
+                <label>cover<input type="text" id="cover"></label>
+                <button type="submit">submit</button>
+            </form>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
